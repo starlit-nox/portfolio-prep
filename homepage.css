@@ -1,0 +1,36 @@
+#userPFP {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.userStuff {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+    margin: 0px 50px 0px 100px;
+    justify-content: space-between;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 50px;
+     /* border-color: blue; */
+    /* border-style: groove; */
+    align-items: center;
+    margin: 0px 50px 50px 0px;
+}
+
+.userInfo p {
+    font-size: x-large;
+}
+
+.fafaSet {
+    display: flex;
+    justify-content: space-evenly
+}
+
