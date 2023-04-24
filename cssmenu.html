@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Menucool Css Menu</title>
+    <title>Kaydee Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant" />
     <link href="csshome.css" rel="stylesheet" />
@@ -9,84 +10,119 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body {
-            margin:0;
-            background:transparent;
+            margin: 0;
+            background: transparent;
         }
-        #menuDemo { text-align:center; padding:30px 8px; }
+
+        #menuDemo {
+            text-align: center;
+            padding: 30px 8px;
+        }
     </style>
 </head>
+
 <body>
     <div class="heroHeader">
-        <img src="https://media.istockphoto.com/id/1182184295/vector/abstract-background-with-in-blue-gradient.jpg?s=612x612&w=0&k=20&c=2-n3mmkTJdVVS8lspa0jog0XHIvvY3zmGw4gNk-U-Ao=" alt="" width="1920px" height="400px">
+        <img src="https://media.istockphoto.com/id/1182184295/vector/abstract-background-with-in-blue-gradient.jpg?s=612x612&w=0&k=20&c=2-n3mmkTJdVVS8lspa0jog0XHIvvY3zmGw4gNk-U-Ao="
+            alt="" width="1920px" height="400px">
     </div>
-<div id="menuDemo">
-<!--start csshome-->
-<div class="menu-icon-wrapper">
-	<div class="menu-icon" onclick="togglecsshome(this)">
-		<div class="three-line">
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
-	</div>
-</div>
-<div id="csshome">
-    <ul>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact Me</a></li>
-        <!-- <li><a href="#">Art Portfolio</a></li> -->
-    </ul>
-</div>
-<script>
-    function togglecsshome(icon) {
-        var csshome = document.getElementById('csshome');
-        if (icon.className.indexOf('active') == -1) {
-            icon.className = 'menu-icon active';
-			csshome.style.display = "block";
-			setTimeout(function(){csshome.className = 'active';},0);            
-        }
-        else {
-            icon.className = 'menu-icon';
-			csshome.className = '';
-			setTimeout(function(){csshome.style.display = "none";},411); 
-        }
-    }
-</script>
-<!--end csshome-->
-</div>
-<div>
- <div class="userStuff">
-<div class="userPFPInfo">
-           <img id="userPFP" src="IMG_4898.jpg" alt="">
-<div class="fafaSet">
-    <h3 class="fafa1"> <a href="https://www.linkedin.com/in/kaydee-kelly-5a6389265/"> <i class="fa fa-linkedin-square" style="font-size:48px;color:rgb(51, 47, 106)"> </a></i>
-        <h3> <a href="https://github.com/starlit-nox"> <i class="fa fa-github" style="font-size:48px;color:rgb(51, 47, 106)"></a></i>
-        
-</div>
-        </h3>
-</h3>
-</div>    <h3></h3>
-       <div class="userInfo">
-        <h1>Kaydee Kelly</h1>
-        <h4>Software Developer | Graphic Designer</h2>
-        <p>Hello and thanks for visiting my portfolio. I'm an aspiring graphic designer and software developer. I've always been passionate about technology and design, therefore I'm thrilled to present some of my work in this portfolio.
-
-            I have developed skills with a range of programming languages and design tools throughout my education and personal projects, such as CSS, HTML, JavaScript, and Adobe Suite. Please check back in to see updated projects. If you're interested, don't hestitate to connect with me! </p>
-    </div>
-    <div class="recentProjects">
-        <h2><u>Recent Projects</u></h2>
-        <div class="recent01">
-            <h3 class="recentImgCenter">  <a href="https://mindgymco.github.io/trvia-app/">Trivia Application</a></h3>
-            <img src="https://cdn.discordapp.com/attachments/442113342501552147/1099943313718648832/image.png" alt="triviaUI" width="500px">
+    <div id="menuDemo">
+        <!--start csshome-->
+        <div class="menu-icon-wrapper">
+            <div class="menu-icon" onclick="togglecsshome(this)">
+                <div class="three-line">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </div>
-       <div class="recent02">
-
-       </div>
-       <div class="recent03">
-
-       </div>
+        <div id="csshome">
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact Me</a></li>
+                <!-- <li><a href="#">Art Portfolio</a></li> -->
+            </ul>
+        </div>
+        <script>
+            function togglecsshome(icon) {
+                var csshome = document.getElementById('csshome');
+                if (icon.className.indexOf('active') == -1) {
+                    icon.className = 'menu-icon active';
+                    csshome.style.display = "block";
+                    setTimeout(function () { csshome.className = 'active'; }, 0);
+                }
+                else {
+                    icon.className = 'menu-icon';
+                    csshome.className = '';
+                    setTimeout(function () { csshome.style.display = "none"; }, 411);
+                }
+            }
+        </script>
+        <!--end csshome-->
     </div>
- </div>
-</div>
+    <div>
+        <div class="userStuff">
+            <div class="userPFPInfo">
+                <img id="userPFP" src="IMG_4898.jpg" alt="">
+                <div class="fafaSet">
+                    <h3 class="fafa1"> <a href="https://www.linkedin.com/in/kaydee-kelly-5a6389265/"> <i
+                                class="fa fa-linkedin-square" style="font-size:48px;color:rgb(51, 47, 106)"> </a></i>
+                        <h3> <a href="https://github.com/starlit-nox"> <i class="fa fa-github"
+                                    style="font-size:48px;color:rgb(51, 47, 106)"></a></i>
+
+                </div>
+                </h3>
+                </h3>
+            </div>
+            <h3></h3>
+            <div class="userInfo">
+                <h1>Kaydee Kelly</h1>
+                <h4>Creative Jack-of-all-Trades</h2>
+                    <p>Hello and thanks for visiting my portfolio. I'm an aspiring graphic designer and software
+                        developer. I've always been passionate about technology and design, and what excites me the most
+                        is mixing the two! Therefore, I'm thrilled to present some of my work in this portfolio. Please
+                        check back in to see updated projects. If you're interested, don't hestitate to connect with me!
+                    </p>
+            </div>
+        </div>
+        <div class="recentProjects">
+            <!-- <h2><u>Recent Projects</u></h2> -->
+            <div class="recent01">
+                <h3 class="recentImgCenter"> <a href="https://mindgymco.github.io/trvia-app/">Trivia Application</a>
+                </h3>
+                <img src="https://cdn.discordapp.com/attachments/442113342501552147/1099943313718648832/image.png"
+                    alt="triviaUI" width="500px">
+                <img src="https://cdn.discordapp.com/attachments/442113342501552147/1099943313718648832/image.png"
+                    alt="triviaUI" width="500px">
+                <img src="https://cdn.discordapp.com/attachments/442113342501552147/1099943313718648832/image.png"
+                    alt="triviaUI" width="500px">
+
+
+            </div>
+            <div class="recent02">
+                <h3 class="recentImgCenter"> <a href="https://starlit-nox.github.io/cookie-stand/">Salmon Cookies</a>
+                </h3>
+                <img src="https://cdn.discordapp.com/attachments/442113342501552147/1099958757544435722/image.png"
+                    alt="triviaUI" width="500px">
+                <img src="https://cdn.discordapp.com/attachments/442113342501552147/1099958864692133999/image.png"
+                    alt="triviaUI" width="500px">
+                <img src="https://cdn.discordapp.com/attachments/442113342501552147/1099958930664329307/image.png"
+                    alt="triviaUI" width="500px">
+
+            </div>
+            <div class="recent03">
+                <h3 class="recentImgCenter"> <a href="https://starlit-nox.github.io/AboutMe/">About Me Page</a></h3>
+                <img src="https://cdn.discordapp.com/attachments/442113342501552147/1099959316020211743/image.png"
+                    alt="triviaUI" width="500px">
+                <img src="https://cdn.discordapp.com/attachments/442113342501552147/1099959196306391130/image.png"
+                    alt="triviaUI" width="500px">
+                <img src="https://cdn.discordapp.com/attachments/442113342501552147/1099959247934079046/image.png"
+                    alt="triviaUI" width="500px">
+
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
